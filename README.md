@@ -1,23 +1,22 @@
 # Take a break
 
 ## Introduction 
-Batch script that notifies to take a break and sleeps computer after every 2 hours. 
+A shell script that notifies to take a break and sleeps computer after every 2 hours. 
 
 ## Based on 
-- Batch Scripting
+- Bash Scripting
 
 ## Works on 
-- Windows 7/8/8.1/10
+- Linux
 
 ## Installation
-- Open install folder
-- Double click on installer as per your OS architecture(32/64 Bits)
-- Restart and Done! :) 
-
-## Uninstallation
-- Open uninstall folder
-- Double click on installer as per your OS architecture(32/64 Bits)
-- Restart and Done! :) 
+- Right click in the folder and click open in terminal. 
+- Run
+``` 
+sudo chmod +x takeABreak.sh
+nohup bash takeABreak.sh &
+``` 
+- You can close the terminal now! :) 
 
 ## Author
 Kartikey Kushwah  
